@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include imat_app *.css
+recursive-include imat_app *.csv
+recursive-include imat_app *.html
+recursive-include imat_app *.ico
+recursive-include imat_app *.js
+recursive-include imat_app *.json
+recursive-include imat_app *.md
+recursive-include imat_app *.png
+recursive-include imat_app *.py
+recursive-include imat_app *.svg
+recursive-include imat_app *.txt
+recursive-exclude imat_app *.pyc
