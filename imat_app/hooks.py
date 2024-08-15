@@ -98,6 +98,9 @@ app_license = "MIT"
 #	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+override_doctype_class = {
+	"Sales Order": "imat_app.overrides.sales_order.custom_sales_order.IMATSalesOrder",
+}
 # Document Events
 # ---------------
 # Hook on document methods and events
