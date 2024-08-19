@@ -5,5 +5,3 @@ class IMATSalesOrder(CustomSalesOrder):
     def validate(self):
         frappe.msgprint("IMAT APP")
         super().validate()
-
- 
