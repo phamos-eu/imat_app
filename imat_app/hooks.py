@@ -100,6 +100,9 @@ app_license = "MIT"
 
 override_doctype_class = {
 	"Sales Order": "imat_app.overrides.sales_order.custom_sales_order.IMATSalesOrder",
+	"Sales Invoice": "imat_app.overrides.sales_invoice.custom_sales_invoice.IMATSalesInvoice",
+	"Delivery Note": "imat_app.overrides.delivery_note.custom_delivery_note.IMATDeliveryNote",
+	"Journal Entry": "imat_app.overrides.journal_entry.custom_journal_entry.IMATJournalEntry"
 }
 # Document Events
 # ---------------
